@@ -1,17 +1,14 @@
-elixir-sips-rss
+elixir_sips_rss
 ===============
 
-A toy project to download the latest episode(s) of [Elixir Sips](http://elixirsips.com/).
+A fork of [elixir-sips-rss](https://github.com/brkattk/elixir-sips-rss) written in [Elixir](http://elixir-lang.org/).
 
-A bit of irony that this project is built with Node.
+Just an exmaple of what it would look like in [Elixir](http://elixir-lang.org/). You Probably shouldn't use this.
 
-# Run it
+## Build
 
-The script requires that the following environment variables are set:
+Make sure you have [Elixir](http://elixir-lang.org/) installed, then clone the repo and run `mix do deps.get, deps.compile`
 
-- `USERNAME` - The feed is behind basic auth.
-- `PASSWORD` - The feed is behind basic auth.
-- `MAX_EPISODES` - I've had bad results with > `15`. Default is `10`.
-- `EPISODES_DIRECTORY` - Download 'em wherever you want. Default is the project's `./episodes`.
+## Run it
 
-Minimally, you would run `USERNAME=you@email.com PASSWORD=yourpass npm start`
+elixir_sips_rss downloads episodes into an `episodes` directory. Run `./elixir_sips_rss` to print usage information. Basic usage is `elixir_sips_rss --username USERNAME --password PASSWORD` where USERNAME and PASSWORD are your elixir sips login info.
