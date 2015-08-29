@@ -7,7 +7,7 @@ Just an exmaple of what it would look like in [Elixir](http://elixir-lang.org/).
 
 ## Build
 
-Make sure you have [Elixir](http://elixir-lang.org/) installed, then clone the repo and run `mix do deps.get, deps.compile`
+Make sure you have [Elixir](http://elixir-lang.org/) installed, clone the repo and run `mix do deps.get, deps.compile`. Then run `mix escript.build` to build elixir_sips_rss.
 
 ## Run it
 
